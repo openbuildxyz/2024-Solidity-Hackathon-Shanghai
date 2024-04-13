@@ -10,3 +10,26 @@
   - **PowerPoint demo (required);**
   - **DEMO link or link to the project introduction video (optional; the video should be uploaded to video platforms like YouTube and may not exceed 5 minutes)** ;
   - **Any other support materials** .
+
+------------以下参考------------
+
+## xxx项目介绍
+**项目概述**
+
+
+**技术架构**
+合约语言：
+前端框架：
+
+**核心功能**
+
+**项目团队**
+
+**项目链接**
+  - **Code link** ;
+    
+  - **PowerPoint demo**
+    
+  - **DEMO link or link to the project introduction video** ;
+
+**联系方式**
