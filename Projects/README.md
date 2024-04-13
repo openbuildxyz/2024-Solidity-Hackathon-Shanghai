@@ -1,6 +1,6 @@
 ## Submission Instructions
   
-  Each team participating in this competition is required to create a project folder in this directory and store the content of the competition deliverables in the folder by the specified submission deadline, [Click here to check out the Submission Guidelines](/Developer_Library/Project_Submission_Guidelines.md).
+  Each team participating in this competition is required to create a project folder in this directory and store the content of the competition deliverables in the folder by the specified submission deadline.
   
   The submission deadline is subject to the timetable of the divisions, and you may not submit or modify your project after the deadline.
   
