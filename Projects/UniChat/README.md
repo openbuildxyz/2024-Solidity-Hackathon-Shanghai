@@ -28,6 +28,8 @@ Vue
 
 ## 项目团队
 
+33357 甘小龙 overdosed
+
 ## 项目链接
 
 Code link: https://github.com/33357/unichat-demo
