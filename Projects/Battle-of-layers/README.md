@@ -29,6 +29,8 @@ https://github.com/HelheimLabs/battle-of-layers
 ### Demo link
 https://battle-of-layers.vercel.app/
 
+### Demo video link
+https://www.youtube.com/watch?v=Ph1jffKZsmY
 
 ### 联系方式
 Twitter: https://twitter.com/Noy_eth
