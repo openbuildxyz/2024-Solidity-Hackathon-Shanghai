@@ -1,0 +1,6 @@
+  - **Code link (required; the original code is stored in your personal GitHub repository and is not required for submission)** ;
+    - https://github.com/Buddy-Guard/Smart-Contracts/tree/main
+  - **PowerPoint demo (required);**
+    - https://www.canva.com/design/DAF7kG_6uhw/dRyRK35CP1bJOPXe5r05Wg/view?utm_content=DAF7kG_6uhw&utm_campaign=designshare&utm_medium=link&utm_source=editor
+  - **DEMO link or link to the project introduction video (optional; the video should be uploaded to video platforms like YouTube and may not exceed 5 minutes)** ;
+    - https://youtu.be/3bHaTSlQHYc
