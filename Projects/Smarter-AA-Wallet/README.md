@@ -42,7 +42,9 @@ UI&UX designer Jingwen Luo graduated from University of Pennsylvania majoring in
 
 ### 项目链接
 Github: https://github.com/smarterwallet
+
 Prototype: https://www.figma.com/file/79vQtcOkQeVd0s6g9Ykonr/Demand-abstraction-AA-Wallet?type=design&node-id=0-1&mode=design
+
 Deck: https://drive.google.com/file/d/1cWYS6YHwSmCPUTnGrJlMSLqPkn-rKnHn/view?usp=sharing
 
 ### 联系方式
