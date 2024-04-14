@@ -197,7 +197,8 @@ contract MyTruesure {
     using SafeMath for uint256;
   
     //项目方地址
-    address public techAddr;  
+    address  techAddr;  
+    uint creater; 
 
     //合约维护总财富
     uint public totalTruesure;
@@ -243,8 +244,10 @@ contract MyTruesure {
    * @dev 合约初始化
    * @param _techAddr 项目方地址
    */
-    constructor(address _techAddr)  {  //高版本不需要public
-        techAddr = _techAddr;
+    constructor( uint _techAddr)  {  
+        
+        techAddr=msg.sender;
+        creater = _techAddr;
     }
 
     /**

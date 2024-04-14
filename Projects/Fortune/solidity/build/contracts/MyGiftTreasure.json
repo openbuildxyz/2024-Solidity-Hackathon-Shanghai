@@ -637,7 +637,7 @@
   "sourceMap": "0:797:1:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "0:797:1:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;122:29;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;59:23;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;122:29;;;;:::o;59:23::-;;;;;;;;;;;;:::o;7:77:9:-;44:7;73:5;62:16;;7:77;;;:::o;90:118::-;177:24;195:5;177:24;:::i;:::-;172:3;165:37;90:118;;:::o;214:222::-;307:4;345:2;334:9;330:18;322:26;;358:71;426:1;415:9;411:17;402:6;358:71;:::i;:::-;214:222;;;;:::o;442:126::-;479:7;519:42;512:5;508:54;497:65;;442:126;;;:::o;574:96::-;611:7;640:24;658:5;640:24;:::i;:::-;629:35;;574:96;;;:::o;676:118::-;763:24;781:5;763:24;:::i;:::-;758:3;751:37;676:118;;:::o;800:222::-;893:4;931:2;920:9;916:18;908:26;;944:71;1012:1;1001:9;997:17;988:6;944:71;:::i;:::-;800:222;;;;:::o",
   "source": "contract MyGiftTreasure {\r\n   \r\n    //项目方地址\r\n    address public techAddr;  \r\n\r\n    //合约维护总财富\r\n    uint public totalGiftTruesure;\r\n\r\n    // 正常彩礼对象结构\r\n    struct GiftTreasure{\r\n        // 男方\r\n        address manAddr;\r\n        // 女方\r\n        address feamealAddr;\r\n        uint totalGiftTreasure;\r\n        uint periodTime;   //分发总时间\r\n        uint8 isStateOk; //分发状态是否正常。0表示不正常，1表示正常。\r\n\r\n\r\n    }\r\n\r\n    // 需要仲裁对象结构\r\n    struct VoteTreasure{\r\n        // 男方\r\n        address manAddr;\r\n        // 女方\r\n        address feamealAddr;\r\n        address judgeAddr;  //判定者\r\n        uint totalGiftTreasure;\r\n\r\n        uint judgerNum; //判定成员\r\n\r\n        \r\n    }\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n}",
-  "sourcePath": "/Users/lucifer/Downloads/web3_match_12/contracts/MyGiftTreasure.sol",
+  "sourcePath": "D:\\web3_match\\contracts\\MyGiftTreasure.sol",
   "ast": {
     "absolutePath": "project:/contracts/MyGiftTreasure.sol",
     "exportedSymbols": {
@@ -1034,7 +1034,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.16",
-  "updatedAt": "2024-04-14T04:37:38.414Z",
+  "updatedAt": "2024-04-14T05:05:12.263Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
