@@ -1,0 +1,83 @@
+
+.App {
+  /* 8 14 16*/
+    background-image: url('./img/img16.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;
+    overflow: hidden;
+}
+.headWrap {
+  height: 60px;
+  margin-top: 10px;
+  padding: 0 15px ;
+  color:#dc80f1;
+  font-weight: 800;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.titleMy{
+  font-weight: 800;
+  font-size: 18px;
+  color:#fff;
+  margin-top:35px;
+  text-align: center;
+  color:#eb7af8;
+}
+.content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+  flex-grow: 1;
+}
+.formStyle{
+  padding:10px 10px 0 10px;
+  margin-top:-25px;
+ background-color: rgba(255, 255, 255, 0.1); /* 半透明背景 */
+  backdrop-filter: blur(5px); /* 背景模糊 */
+   -webkit-backdrop-filter: blur(5px); /* 兼容老版本 Safari */
+    border-radius: 5px;
+}
+.titleMys{
+  margin-top: -10px;
+}
+.imgLogo{
+  border-radius: 47%;
+  height: 40px;
+}
+.logoWorld{
+  margin-left: 5px;
+}
+.connectBtn{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #34293a;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 800;
+  color:#dc80f1;
+}
+.myAccout{
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  color:#dc80f1;
+  width:220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.left-top{
+  display: flex;
+  align-items: center;
+}
