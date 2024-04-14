@@ -41,8 +41,7 @@
 
   - **PowerPoint demo** 
     
-    - [PPT of Travel in Chaina](../xx.ppt)
-    
+    - [PPT of Travel in Chaina](ppt/China-Web3-NFT_final.pptx)
   - **DEMO link or link to the project introduction video** 
     
     - <video src="D:\github\2024-Solidity-Hackathon-Shanghai\Projects\Travel in Chaina\vedio\demoshow.mp4"></video>
