@@ -1,28 +1,28 @@
 <script setup>
+import { get } from "vant/lib/utils";
 import { ref, onMounted } from "vue";
 import Web3 from "web3";
 import Vote from "../contracts/Vote.json";
 import currentAccount from "../web3/web3";
-// import myWeb3 from "../web3/test";
+import {getWeb3} from "../web3/web3";
 
 var web3 = new Web3(
   Web3.givenProvider ||
     "wss://sepolia.infura.io/ws/v3/0fda17b26c574dca81d0069f6150ffe8"
 );
 
-const address = "0xf4bB5f91674E44BC895A2Ebc23c589549702A18C"; // 合约部署地址
-const myContract = new web3.eth.Contract(Vote.abi, address);
 
-// const myContract = myWeb3();
-// ["LIU","GUO","CO"]
+const address = "0xb633Cf677b41209BF5721Df490413928e4B33b1D"; // 合约部署地址
+const myContract = new web3.eth.Contract(Vote.abi, address);
+// ["learnings.ai","Web3-AlarmClock","AA Wallet based onIntent","BuddyGuard"]  
 
 onMounted(async () => {
   let result = await myContract.methods.getBoardInfo().call();
   selectItem.value = result;
-  // console.log(result);
-  // console.log(selectItem.value[0]);
-  // console.log(await myContract.methods.host().call());
+  console.log(result);
+  console.log(selectItem.value[0]);
 });
+
 
 const showCase = ref(false);
 const checked = ref("");
@@ -37,10 +37,15 @@ const createList = () => {
 const assign = () => {
   assianCase.value = true;
 };
+
+
 const confirmSubmit = async () => {
   console.log(checked.value);
   const account = await currentAccount();
-  const result = myContract.methods.vote(checked.value).send({ from: account });
+  console.log(account);
+  const _web3 = await getWeb3();
+  const _contract = new _web3.eth.Contract(Vote.abi, address);
+  const result = await _contract.methods.vote(checked.value).send({ from: account });
   console.log(result);
 };
 
@@ -55,26 +60,6 @@ const confirmAssigan = async () => {
     });
 };
 
-// const cacula = async () => {
-//   const items = [];
-//   const item = {
-//     ProjectName: "",
-//     ProjectFounder: "",
-//     TotalAmount: "",
-//   };
-
-//   for (let i = 0; i < selectItem.value.length; i++) {
-//     item.ProjectName = selectItem.value[i].name;
-//     // items[i].ProjectFounder = objectArray[i].ProjectFounder;
-//     item.TotalAmount = selectItem.value[i].TotalAmount;
-//     console.log(item);
-//     // items.push(item);
-//   }
-//   // console.log(items);
-//   return items;
-// };
-
-// const items = cacula();
 const items = [
     {
       ProjectName: "xx",
@@ -83,10 +68,6 @@ const items = [
     },
   ]
 
-  // const headers = [
-  //       { title: 'ProjectName', value: 'name' },
-  //       { title: 'ProjectFounder', value: 'location' },
-  //       { title: 'TotalAmount', value: 'constructionDate' },]
 
 /**
  * 0xeD270aC0d914497e84059d50e8d5C5D469a738e6
@@ -143,7 +124,6 @@ const items = [
       <van-field v-model="addressValue" label="地址" placeholder="请输入地址" />
     </van-cell-group>
   </van-dialog>
-  <!-- <p>{{ selectItem.}}</p> -->
 </template>
 
 <style scoped>
@@ -168,3 +148,4 @@ p {
   margin-bottom: 10px;
 }
 </style>
+
